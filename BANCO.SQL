@@ -1,0 +1,1 @@
+create database db172592_assandosites_db default character set utf8 collate utf8_unicode_ci
