@@ -65,13 +65,13 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'root',
-		'password' => '',
-		'database' => 'db172592_assandosites_db',
+		'login' => 'user',
+		'password' => 'password',
+		'database' => 'database_name',
 		'prefix' => '',
-		'encoding' => 'utf8',
+		//'encoding' => 'utf8',
 	);
-/*
+
 	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
@@ -80,7 +80,6 @@ class DATABASE_CONFIG {
 		'password' => 'password',
 		'database' => 'test_database_name',
 		'prefix' => '',
-		'encoding' => 'utf8',
+		//'encoding' => 'utf8',
 	);
-	*/
 }
